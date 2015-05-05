@@ -26,6 +26,18 @@
     background-image: url("http://i57.tinypic.com/24vo2kl.png");
     }
     
+    div {
+      width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    }
+    
+    div:hover {
+      width: 300px;
+    }
+    
     @-moz-keyframes slidein {
       from {
         margin-left:100%;
@@ -55,4 +67,5 @@
   <h1>Welcome</h1>
   <p>Thank you for viewing my website.</p>
 </body>
+<div>Hello</div>
 </html>
